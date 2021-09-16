@@ -58,7 +58,7 @@ function draw() {
   Delayed();
   
   Select = Math.round(random(1,4));
-  if (frameCount % 80 == 0){
+  if (frameCount % 105 == 0){
     if (Select == 1){
       BalloonSpawn(Blue, 0.1);
     }
